@@ -10,14 +10,14 @@ public class systemProject {
     static int floatingPointSize = 0;
     static boolean isNegative = false;
     static String exponent = "";
-    static int ExpMinusBias = 0;
+    static int ExpMinusBias = 1;
     static int byteOrdering = 0;
 
     public static void main(String[] args) {
         String numberAsHexadecimal = "";
         Scanner inputScanner = new Scanner(System.in);
         try {
-            File file = new File("input.txt");
+            File file = new File("output.txt");
             FileWriter outputFile = new FileWriter("output.txt");
             Scanner scanner = new Scanner(file);
             PrintWriter output = new PrintWriter(outputFile);
