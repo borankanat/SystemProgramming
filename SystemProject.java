@@ -7,11 +7,11 @@ import java.io.PrintWriter;
 
 public class systemProject {
     String mantissa = "";
-    static int floatingPointSize = 0;
-    static boolean isNegative = false;
-    static String exponent = "";
+    static int floatingPointSize = 1;
+    static boolean isNegative = true;
+	static String exponent = "";
     static int ExpMinusBias = 1;
-    static int byteOrdering = 0;
+    static int byteOrdering = 1;
 
     public static void main(String[] args) {
         String numberAsHexadecimal = "";
