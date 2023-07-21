@@ -9,7 +9,7 @@ public class systemProject {
     String mantissa = "";
     static int floatingPointSize = 1;
     static boolean isNegative = true;
-    static String exponent = ""; 
+	static String exponent = "";
     static int ExpMinusBias = 1;
     static int byteOrdering = 1;
 
