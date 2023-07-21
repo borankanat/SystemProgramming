@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 
 public class systemProject {
     String mantissa = "";
-    static int floatingPointSize = 0;
+    static int floatingPointSize = -2;
     static boolean isNegative = false;
     static String exponent = "";
     static int ExpMinusBias = 1;
